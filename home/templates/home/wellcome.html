@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS Animation */
+    @keyframes welcomeAnimation {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Styling for the message */
+    .welcome-message {
+      font-size: 40px;
+      text-align: center;
+      animation: welcomeAnimation 1s ease-out;
+      color: darkblue;
+      background-color: antiquewhite;
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-message">Welcome to Your first Django App Demo. .!</div>
+  <p style="text-align:center"><strong style="font-size: 125%;">To day is {{today}} </strong></p>
+</body>
+</html>
